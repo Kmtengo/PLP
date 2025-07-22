@@ -1,0 +1,8 @@
+Place your ksb-logo.jpg file in this directory.
+
+The Logo component (src/components/Logo.tsx) currently uses a placeholder.
+Once you add the ksb-logo.jpg file here, you can update the Logo component to use:
+
+<img src="/src/assets/ksb-logo.jpg" alt="Kenya Sugar Board" className={sizes[size]} />
+
+Instead of the current placeholder div.
